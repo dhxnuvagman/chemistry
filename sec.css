@@ -1,0 +1,44 @@
+body{
+    background-image: url('images/sec.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+   color:#eae5d9;
+}
+h1{
+  font-size:45px;
+}
+h2{
+  font-size:22px;
+  
+}
+#fo{
+  font-weight:500;
+  animation:scrollAnimation 1s forwards;
+}
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(50px);
+    }}
+  .calc{
+    background-color: black;
+    width:160px;
+    height:5vh;
+    position: absolute;
+   right:20px;
+   bottom:90px;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   border-radius:22px;
+   border:2px solid red;
+   text-decoration: none;
+   color:red;
+  }
+    

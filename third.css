@@ -1,0 +1,30 @@
+*{
+  color:white;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+ body {
+            background-image: url('images/third.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+ }
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center; 
+          
+        }
+        span{
+    color:rgb(255, 94, 0);
+}

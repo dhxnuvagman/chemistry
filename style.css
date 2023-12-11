@@ -1,0 +1,43 @@
+
+        body {
+            background-image: url('images/home.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Nova Square', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+        }
+
+        .get-started-button {
+            position: absolute;
+            bottom: 10%;
+            right: 10%;
+            display: inline-block;
+            padding: 15px 25px;
+            background-color: transparent; /* Green background color */
+            color: #add8e6;
+            border: 2px solid #add8e6;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 20px;
+            border-radius: 22px;
+            animation:scrollAnimation 3s forwards;
+            opacity: 2;
+        }
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+        }
+        #head{
+          color:#add8e6;
+          font-size:52px;
+          top:30%;
+          position: absolute ;
+          animation: scrollAnimation 3s forwards;
+          font-weight:100;
+        }
